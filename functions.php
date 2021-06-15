@@ -3,7 +3,7 @@
 // so we can test out the thumbnails
 add_theme_support( 'post-thumbnails' );
 
-$csv = get_stylesheet_directory() . '/import/posts.csv';
+$csv = get_stylesheet_directory() . '/posts.csv';
 
 if(file_exists( $csv ) && is_admin() && $_GET['csv'] == 1){
     
